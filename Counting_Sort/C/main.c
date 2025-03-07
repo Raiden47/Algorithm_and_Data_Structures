@@ -36,8 +36,8 @@ void print_array(int a[], int n){
 }
 
 void counting_sort(int a[], int b[], int n){
-    int c[K];
-    for (int i = 0; i < K; i+=1)
+    int c[K+1];
+    for (int i = 0; i < K+1; i+=1)
         c[i] = 0;
 
     for (int i = 1; i < n; i+=1)
