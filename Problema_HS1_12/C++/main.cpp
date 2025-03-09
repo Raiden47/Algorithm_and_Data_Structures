@@ -12,10 +12,10 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int T; // Numero di test case
-    cin >> T;
+    int t; // Numero di test case
+    cin >> t;
 
-    while (T--) {
+    while (t--) {
         int n; // Numero di stringhe per il test case corrente
         cin >> n;
 
