@@ -49,11 +49,11 @@ if __name__ == '__main__':
         ['s','r','z','h','d'],
         ['f','o','a','g','e'],
         ['x','d','n','l','o'],
-        ['o','r','a','t','n'],
+        ['o','r','a','l','n'],
         ['z','p','o','l','n']
     ])
     
-    word = 'helo'
+    word = 'hello'
 
     print("Matrice:")
     print(mat)
