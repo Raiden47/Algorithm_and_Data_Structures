@@ -35,7 +35,6 @@
 
 def n_queen(mat) :
     result = []
-    dim = len(mat)
     
     row = col = 0
     while True :
