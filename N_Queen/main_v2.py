@@ -48,6 +48,6 @@ if __name__ == '__main__' :
     result = []
     dim = int(input("<--- Insert board dimendion --->\n> "))
     mat = [[0 for _ in range(dim)] for _ in range(dim)]
-    result = n_queen_backtrack(mat, 0, 1, result)
+    result = n_queen_backtrack(mat, 0, 0, result)
     print(f"Numero di queen posizionate: {len(result)}\nPosizioni delle N queen: {result}")
     
