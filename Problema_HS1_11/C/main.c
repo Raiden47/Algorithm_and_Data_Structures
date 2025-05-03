@@ -13,13 +13,11 @@ void arr_print(int[], int);
 
 int main()
 {
-    printf("MAMMT 0 ---------------------------------\n");
     int n;
     int inv = 0;
     do
     {
         scanf("%d", &n);
-        printf("MAMMT 1 ---------------------------------\n");
     } while (n >= N_MAX);
 
     int a[n];
@@ -27,7 +25,6 @@ int main()
     for (int i = 0; i < n; i += 1)
     {
         scanf("%d", &a[i]);
-        printf("MAMMT 2 ---------------------------------\n");
         b[i] = a[i];
     }
 
